@@ -1,7 +1,8 @@
-from utils import *
+import time
 from typing import List
 from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
+from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.chrome.options import Options
 
 # 指定要爬取的百度文库链接
